@@ -1,0 +1,119 @@
+
+        .layar{
+            display: flex;
+            position: relative;
+            margin: 5px 30px 5px 30px;
+
+        }
+       .informasi {
+           float : left ;
+           display: flex;
+
+       }
+      
+
+        body{
+            background-image: url("gambar/studium.new.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .wrapper{
+           width: auto;
+            position: relative;
+            display: flex;
+           
+        }
+        .foto {
+            text-align: center;
+        
+
+        }
+        .foto img {
+            border-radius: 50px;
+            width: 150px;
+            height: 150px;
+            margin : 10px 100px 10px 100px ;
+
+        }
+        .foto img:hover {
+            cursor: pointer;
+            width: 200px;
+     height: 200px;
+   
+
+        }
+        .foto p{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .foto a {
+            font-weight: bold;
+            
+            padding: 30px 30px 30px 30px;
+            background: cadetblue;
+            border-radius: 50px;
+            text-align: center;
+            color: white;
+        }
+        .foto p{
+            font-family: 'comic sans ms' ;
+            color: brown;
+
+        }
+        h1{
+            margin-top: 0px;
+            margin-left: 300px;
+            font-size: 70px;
+            font-weight: bold;
+            font-family: 'comic sans ms';
+            color: brown;
+            text-decoration: underline;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: darkslategrey;
+        }
+      
+        .dekorasi {
+            line-height: 50px;
+           
+            margin-right: auto;
+            padding: 20px 20px 20px 20px;
+            border-radius: 50px;
+            font-family: 'comic sans ms';
+            background: powderblue;
+
+
+            
+        }
+        .dekorasi a {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+            
+        }
+        .dekorasi:hover {
+            text-transform: uppercase;
+            text-decoration: underline;
+            background: bisque;
+            
+        }
+        .button {
+            padding :30px 30px 30px 30px ;
+            border-radius: 50px;
+            background:cadetblue ;
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .button:hover{
+            text-transform: uppercase;
+
+        }
+        

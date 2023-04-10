@@ -1,0 +1,54 @@
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #005A8D;
+    width: 100%;
+    line-height: 50px;
+}
+
+@keyframes animasividio {
+    0% {
+        margin-top: 400px;
+    }
+    100% {
+        margin-top: 10px;
+    }
+}
+.rasio{
+    width: 400px;
+    height: 200px;
+}
+
+body{
+margin:0px;
+padding: 0px;
+position:relative;
+font-family:'open sans' sans-serif;
+background:#E1E8EB;
+
+
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #005A8D; 
+}
+
+
+p {
+    margin : 5px 0px 5px 0px ;
+    padding: 10px 0px 10px 0px;
+
+}
+

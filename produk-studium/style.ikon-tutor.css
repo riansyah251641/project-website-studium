@@ -1,0 +1,67 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.ikon{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tombol{
+    display: inline-block;
+    width: 180px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    color: #2980b9;
+    border-radius: 50px;
+    box-sizing: 0 25px 35px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    transition: 0.2s linear;
+    font-size: 25px;
+    line-height: 90px;
+}
+span:hover {
+    
+    color: black;
+    position: absolute;
+
+}
+.tombol::before{
+    content: " ";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -120px;
+    top: 90px;
+    transform: rotate(45deg);
+    background: #3498db;
+
+}
+.tombol:hover::before{
+    left: -10px;
+    top: -10px;
+    animation: aaa 0.7s 1;
+    
+}
+@keyframes aaa {
+    0%{
+        left: -110px;
+        top: 30%;
+    }
+    50%{
+        left: -10%;
+        top: -30%;
+    }
+    100% {
+        left: -10%;
+        top: -10%
+    }
+    
+}

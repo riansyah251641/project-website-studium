@@ -1,0 +1,32 @@
+.tampilan-coment{
+    margin-left:400px;
+}
+@media (min-width:300px) and (max-width:800px){
+    .tampilan-coment{
+        margin-left : 5px;
+    }
+}
+input {
+    width :300px ;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    background-color: cornflowerblue;
+    position: absolute;
+    margin-bottom : 40px;
+}
+fieldset{
+
+    position: relative;
+    width:100%;
+    height: auto;
+    
+    border-radius: 50px;
+    
+    background-color: green;
+    
+}
