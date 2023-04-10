@@ -1,0 +1,62 @@
+.ikon {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  transform: translateY(-50%);
+}
+.tombol {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  color: #2980b9;
+  border-radius: 30px;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+}
+.tombol i {
+  transition: 0.2s linear;
+  font-size: 50px;
+  line-height: 90px;
+}
+.tombol i:hover {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.tombol::before {
+  content: " ";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: -110px;
+  top: 90px;
+  transform: rotate(45deg);
+  background: #3498db;
+}
+.tombol:hover::before {
+  left: -10px;
+  top: -10px;
+  animation: aaa 0.7s 1;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .ikon {
+    margin-top: 140px;
+  }
+}
+@keyframes aaa {
+  0% {
+    left: -110px;
+    top: 90%;
+  }
+  50% {
+    left: -10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
+}
