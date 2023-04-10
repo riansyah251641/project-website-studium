@@ -7,7 +7,7 @@
     <div class="me-5 d-none d-lg-block">
       <!--<span>Get connected with us on social networks:</span>-->
       <h3 class="text-uppercase fw-bold mb-4">
-        <i class="fas fa-gem me-3"></i>STUDIUM.LEARN
+        <i class="fas fa-gem me-3"></i>STUDIUM
       </h3>
     </div>
     <!-- Left -->
@@ -15,7 +15,7 @@
     <!-- Right -->
     <div style="float:right;margin:0px;">
       <p class="me-4 text-reset">
-        Setiap orang dalah Guru dan setiap rumah adalah sekolah.
+        Bersama Negeri, Majukan Generasi
       </p>
     </div>
     <!-- Right -->
@@ -45,20 +45,21 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-6">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
+          <h6 class="text-uppercase fw-bold mb-6">
             Informasi
           </h6>
           <p>
-            <a href="index.php#carapembayaran" class="text-reset">Pendaftaran</a>
+            <a href="./info-studiumlearn.php" class="text-reset">Studium Learn</a>
           </p>
           <p>
-            <a href="setjadwal.php" class="text-reset">Jadwal Tutor</a>
+            <a href="./info-studiumscolar.php" class="text-reset">Studium Scholarship</a>
           </p>
           <p>
-            <a href="index.php#tombol" class="text-reset">Tanya Admin</a>
+            <a href="./info-studiumbook.php" class="text-reset">Studium Book</a>
           </p>
+
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -71,7 +72,7 @@
             studium.learn@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i> 0858-5665-2306</p>
-          <p><i class="fas fa-print me-3"></i>studium.learn</p>
+          <p><i class="fas fa-print me-3"></i>studium</p>
 
         </div>
         <!-- Grid column -->
@@ -83,7 +84,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright: <b>Studium</b> All right reserved
+    © 2021 Copyright:<b>Studium</b> All right reserved
   </div>
   <!-- Copyright -->
 </footer>
