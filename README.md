@@ -19,7 +19,7 @@ Panduan app Studium
 
 - vidio kami di youtube https://youtu.be/ugXPXKZ3wIk
 
-- sekian terimakasih .
+- sekian terimakasih
 
 
 
