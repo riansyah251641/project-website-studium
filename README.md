@@ -1,10 +1,10 @@
 # project-website-studium
-project webiste studium (platfrom bimbingan belajar bagi anak SMA dan jual beli buku bekas)
+project webiste studium (platfrom bimbingan belajar bagi anak SMA, donasi beasiswa, dan jual beli buku bekas)
 
 
-Panduan app Studium
+Panduan penggunaan Studium
 
-- ekstrak file tersebut dalam suat folder 
+- ekstrak file tersebut ke dalam suatu folder 
 
 - silahkan login terlebih dahulu dengan membuat akun baru pada app studium.
 
